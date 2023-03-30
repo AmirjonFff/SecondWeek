@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;  
+}
+td,th{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
+th{
+    background: rgb(252, 174, 114);
+    color: red;
+}
+td{
+    color: rgb(9, 84, 9);
+}
+tr td:last-child{
+    background: rgb(252, 174, 114);
+    width: 80px;
+}
+tr th:last-child{
+    width: 80px;
+}
+tr th:first-child, .th_yell{
+    background: yellow !important;
+}
+tr td:first-child{
+    background: green;
+}
+.td_back{
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.td_col{
+    color: black !important;
+    font-weight: 700;
+}
+.tr_gre{
+    background: green;
+}
